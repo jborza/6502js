@@ -1,6 +1,6 @@
 .widget {
-  width: 600px;
-  margin: 30px auto;
+  width: 900px;
+  margin: 12px;
   font-size: 12px;
   line-height: 1.5;
 }
@@ -18,15 +18,17 @@
   padding: 0;
   background: inherit;
   border: none;
+  font-size: 11px;
 }
 
 .code {
   margin: 0 0 6px 0;
   padding: 6px;
   border: 1px solid black;
-  width: 420px;
-  height: 290px;
+  width: 560px;
+  height: 450px;
   font-family: monospace;
+  font-size: 11px;
   overflow: auto;
   float: left;
 }
@@ -41,7 +43,7 @@
   padding: 3px;
   padding-top: 8px;
   height: 125px;
-  width: 152px;
+  width: 310px;
   text-align: center;
   float: right;
 }
@@ -85,6 +87,6 @@
   width: 587px;
   height: 100px;
   text-align: left;
-  font-size: 12px;
+  font-size: 11px;
   color: #444;
 }
