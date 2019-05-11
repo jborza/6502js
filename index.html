@@ -13,12 +13,14 @@
         <input type="button" value="Reset" class="resetButton" />
         <input type="button" value="Hexdump" class="hexdumpButton" />
         <input type="button" value="Disassemble" class="disassembleButton" />
+        <input type="button" value="Binary" class="binaryButton"/>
+        <input type="button" value="Download source" class="sourceButton"/>
         <input type="button" value="Notes" class="notesButton" />
       </div>
 
       <textarea class="code"></textarea>
 
-      <canvas class="screen" width="160" height="160"></canvas>
+          <canvas class="screen" width="320" height="320"></canvas>
 
       <div class="debugger">
         <input type="checkbox" class="debug" name="debug" />
@@ -66,8 +68,8 @@ $c: Grey
 $d: Light green
 $e: Light blue
 $f: Light grey
-    </div>
-
+      </div>
+    </div>           
     <script src="es5-shim.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="assembler.js"></script>
